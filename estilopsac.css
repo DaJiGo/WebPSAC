@@ -1,0 +1,35 @@
+img {
+     width: 240px;
+     float: left;
+}
+
+#container {
+    height: 135px;
+    
+}
+div #navbar {
+    width: 100%;
+}
+ul {
+    background-color: black;
+}
+li {
+    display: inline;
+    padding: 20px;
+    background-color: black;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    height: 135px;
+    justify-content: center;
+    background-color: rgb(14, 41, 65);
+    align-items: center;
+    display: flex;
+    color: white;
+    
+}
+
