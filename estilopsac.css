@@ -11,25 +11,38 @@ div #navbar {
     width: 100%;
 }
 ul {
-    background-color: black;
+    background-color:rgb(65, 211, 255);
 }
 li {
     display: inline;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(65, 211, 255);
 }
 li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h1 {
     height: 135px;
     justify-content: center;
-    background-color: rgb(14, 41, 65);
+    background-color: rgb(238, 223, 20);
     align-items: center;
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 
+#carusel {
+  position: absolute;
+    z-index:-1;
+}
+
+
+#card {
+    background-color: rgb(255, 0, 0);
+}
+
+#carusel img {
+    height: auto;
+}
