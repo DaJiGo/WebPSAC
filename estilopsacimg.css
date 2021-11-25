@@ -47,7 +47,10 @@ h1 {
      height: 100%;
      padding-left: 5px;
      padding-top:5px;
- }
+     transition: transform 0.5s;
+    
+}
+
 
  .galeria > a{
      display: block;
@@ -62,6 +65,44 @@ h1 {
 
  }
 
+ .light-box {
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, .5);
+     transition: tranform .3s ease-in-out;
+     width: 100%;
+     z-index: 1000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     transform: scale(0);
+
+ }
+ .light-box img {
+     width: 75vw;
+     max-height: 70vh;
+ }
+
+ .light-box:target{
+     transform: scale(1);
+ }
+
+ .close {
+     display: block;
+     position: absolute;
+     top: 40px;
+     right: 40px;
+     background: #851919;
+     color: #fff;
+     text-decoration: none;
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+ }
 
 
  
